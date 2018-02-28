@@ -42,7 +42,6 @@ docker rm $(docker ps -aq)
 docker rmi $(docker images dev-* -q)
 ```
 
-
 ## Steps
 1. [Installing Hyperledger Composer Development Tools](#1-installing-hyperledger-composer-development-tools)
 2. [Starting Hyperledger Fabric](#2-starting-hyperledger-fabric)
@@ -102,6 +101,8 @@ No need to do it now; however as an fyi - you can stop and tear down Fabric usin
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 ## 3. Generate the Business Network Archive (BNA)
+
+<img src="https://farm5.staticflickr.com/4722/39644640775_e3155b237b_h.jpg" width="1600" height="920" alt="Screen Shot 2018-02-28 at 09.43.59">
 
 This business network defines:
 
