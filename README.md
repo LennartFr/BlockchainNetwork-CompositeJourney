@@ -50,6 +50,8 @@ docker rmi $(docker images dev-* -q)
 4. [Deploy the Business Network Archive using Composer Playground](#4-deploy-the-business-network-archive-using-composer-playground)
 5. [Deploy the Business Network Archive on Hyperledger Composer running locally](#5-deploy-the-business-network-archive-on-hyperledger-composer-running-locally)
 
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
+
 ## 1. Installing Hyperledger Composer Development Tools
 
 **Note:** You may need to run these commands in superuser `sudo` mode. `sudo` allows a permitted user to execute a command as the superuser or another user, as specified by the security policy.
@@ -73,6 +75,7 @@ npm install -g composer-rest-server@0.16.0
 ```
 npm install -g yo@2.0.0
 ```
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 ## 2. Starting Hyperledger Fabric
 
@@ -95,6 +98,8 @@ No need to do it now; however as an fyi - you can stop and tear down Fabric usin
 ./stopFabric.sh
 ./teardownFabric.sh
 ```
+
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 ## 3. Generate the Business Network Archive (BNA)
 
@@ -156,6 +161,8 @@ Commodity Trading
 
   1 passing (1s)
 ```
+
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 ## 4. Deploy the Business Network Archive using Composer Playground
 
@@ -230,6 +237,8 @@ Example of transaction view:
   <img width="400" height="200" src="images/transactionsview.png">
 </p>
 
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
+
 ## 5. Deploy the Business Network Archive on Hyperledger Composer running locally (alternative deployment approach)
 
 Deploying a business network to the Hyperledger Fabric requires the Hyperledger Composer chaincode to be installed on the peer, then the business network archive (.bna) must be sent to the peer, and a new participant, identity, and associated card must be created to be the network administrator. Finally, the network administrator business network card must be imported for use, and the network can then be pinged to check it is responding.
@@ -288,6 +297,8 @@ Browse your REST API at http://localhost:3000/explorer
 Open a web browser and navigate to http://localhost:3000/explorer
 
 You should see the LoopBack API Explorer, allowing you to inspect and test the generated REST API. Follow the instructions to test Business Network Definition as mentioned above in the composer section.
+
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 ## Ready to move to Step 2!
 Congratulations - you have completed Step 1 of this Composite Journey - move onto [Step 2](https://github.com/IBM/BlockchainBalanceTransfer-CompositeJourney).
