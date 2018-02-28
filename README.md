@@ -274,6 +274,7 @@ The connection to the network was successfully tested: my-network
 
 Command succeeded
 ```
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 To integrate with the deployed business network (creating assets/participants and submitting transactions) we can either use the Composer Node SDK or we can generate a REST API. To create the REST API we need to launch the `composer-rest-server` and tell it how to connect to our deployed business network. Now launch the server by changing directory to the project working directory and type:
 ```bash
@@ -297,6 +298,8 @@ Browse your REST API at http://localhost:3000/explorer
 Open a web browser and navigate to http://localhost:3000/explorer
 
 You should see the LoopBack API Explorer, allowing you to inspect and test the generated REST API. Follow the instructions to test Business Network Definition as mentioned above in the composer section.
+
+<img src="https://farm5.staticflickr.com/4629/38729764360_7b7cef7ae9_h.jpg" width="1600" height="927" alt="Screen Shot 2018-02-28 at 09.40.18">
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
