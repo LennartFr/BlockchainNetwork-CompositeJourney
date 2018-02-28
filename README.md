@@ -242,6 +242,9 @@ Example of transaction view:
 
 ## 5. Deploy the Business Network Archive on Hyperledger Composer running locally (alternative deployment approach)
 
+<b>Lennart note: You should now export your .bna file from the Hyperledger Composer to overwrite the original .bna file
+in the .dist directory</b>
+
 Deploying a business network to the Hyperledger Fabric requires the Hyperledger Composer chaincode to be installed on the peer, then the business network archive (.bna) must be sent to the peer, and a new participant, identity, and associated card must be created to be the network administrator. Finally, the network administrator business network card must be imported for use, and the network can then be pinged to check it is responding.
 
 Change directory to the `dist` folder containing `my-network.bna` file.
