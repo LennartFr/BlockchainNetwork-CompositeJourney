@@ -64,7 +64,12 @@ npm install -g yo@2.0.0
 
 ## 2. Starting Hyperledger Fabric
 
-First download the docker files for Fabric in preparation for creating a Composer profile.  Hyperledger Composer uses Connection Profiles to connect to a runtime. A Connection Profile is a JSON document that lives in the user's home directory (or may come from an environment variable) and is referenced by name when using the Composer APIs or the Command Line tools. Using connection profiles ensures that code and scripts are easily portable from one runtime instance to another.
+First download the docker files for Fabric in preparation for creating a Composer profile. 
+```
+git clone https://github.com/LennartFr/BlockchainNetwork-CompositeJourney.git
+```
+
+Hyperledger Composer uses Connection Profiles to connect to a runtime. A Connection Profile is a JSON document that lives in the user's home directory (or may come from an environment variable) and is referenced by name when using the Composer APIs or the Command Line tools. Using connection profiles ensures that code and scripts are easily portable from one runtime instance to another.
 
 Start the Fabric and create a Composer profile using the following commands:
 ```bash
