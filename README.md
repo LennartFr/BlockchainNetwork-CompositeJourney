@@ -1,6 +1,8 @@
 *Read this in other languages: [中国](README-cn.md).*
 # BlockchainNetwork-CompositeJourney
 
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
+
 ## Build Your First Network (BYFN)
 
 Welcome to the first in a series of building a Blockchain application. **Part 1** will show you how to create a Hyperledger Composer Business Network Archive (BNA) file for Commodity trade and deploy it on a Hyperledger Fabric. This will be the "Hello World" of Hyperledger Composer samples.
@@ -30,6 +32,16 @@ You can use [Hyperledger Composer](https://github.com/hyperledger/composer) to q
 * [Git client](https://git-scm.com/downloads) - needed for clone commands
 *  git - 2.9.x
 *  Python - 2.7.x
+
+
+These commands will kill and remove all running containers, and should remove all previously created Hyperledger Fabric chaincode images:
+
+```none
+docker kill $(docker ps -q)
+docker rm $(docker ps -aq)
+docker rmi $(docker images dev-* -q)
+```
+
 
 ## Steps
 1. [Installing Hyperledger Composer Development Tools](#1-installing-hyperledger-composer-development-tools)
